@@ -9,8 +9,8 @@ python:
   - "pypy3"
 
 install:
-  - pip install --user travis-sphinx
-  - pip install --user tox-travis
+  - pip install travis-sphinx
+  - pip install tox-travis
 
 script:
   - travis-sphinx build --source=docs
